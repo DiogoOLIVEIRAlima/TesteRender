@@ -1,0 +1,170 @@
+/* Importação (Google Fonts) */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,700|Poppins:200,200i,300,300i,400,500,500i,600,700,800,900&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.primeiraDivNav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    padding: 2%;
+}
+#redes-sociais{
+    display: flex;
+    margin-right: 10%;
+}
+.primeirasImagem{
+    margin-right: 15%;
+}
+
+.segundaDivNav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3%;
+}
+#Menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ #Menu p{
+    margin-right: 40px;
+    
+}
+#Logo{
+    margin-left: 4%;
+}
+#Cachorro{
+    background-image: url("img/banner.png");
+    display: flex;
+    padding: 5%;
+
+}
+
+#ParteLaranja h1{
+    font-size: 80px;
+    font-weight:100;
+    color: white;
+    line-height: 80px;
+}
+#ParteLaranja{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    row-gap: 30px;
+    padding: 30px;
+    
+}
+
+#ParteLaranja{
+    color: white;
+    font-weight: 100;
+    line-height: 25px;
+}
+#dog{
+    position: absolute;
+    left: 25%;
+    bottom: 2px;
+    top: 40%;
+}
+
+#ParteLaranja button{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #f16301;
+    font-weight: bold;
+}
+
+#Servico article{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 370px;
+    border: 2px solid gray;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+#Servico article div{
+    margin-top: 25px;
+}
+
+.sabia{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f16301;
+    border-radius: 30px;
+    color: white;
+}
+
+#Servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18%;
+    padding: 15px;
+}
+
+
+#Servico h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#Servico #ultimop{
+    margin-bottom: 60px;
+}
+
+#paragrafo{
+    text-align: center;
+    color: gray;
+}
+#englobaArticles{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: gray;
+    padding: 80px;
+}
+
+footer div{
+ display: flex;
+ flex-direction: column;
+ row-gap: 15px;
+}
+
+footer p{
+    color: white;
+}
